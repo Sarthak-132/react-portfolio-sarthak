@@ -1,9 +1,9 @@
 import Navbar from "../components/Navbar";
-
+import "../universal.css";
 function Home() {
   return (
     <>
-      <div className="container">
+      <div className="main-container">
         <Navbar />
       </div>
     </>
