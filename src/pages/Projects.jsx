@@ -1,5 +1,12 @@
+import Navbar from "../components/Navbar";
+
 function Projects() {
-  return <div>Project</div>;
+  return (
+    <>
+      <Navbar />
+      <div className="main-container">Projects</div>
+    </>
+  );
 }
 
 export default Projects;

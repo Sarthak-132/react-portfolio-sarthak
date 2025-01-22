@@ -30,6 +30,11 @@ nav ul {
     display: none;
 }
 
+.active {
+    background-color: #3a3e3ea3;
+    color: #1acec8;
+}
+
 @media screen and (max-width: 768px) {
     .nav-logo {
         margin-left: 0rem;

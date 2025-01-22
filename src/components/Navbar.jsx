@@ -1,6 +1,7 @@
 import logo from "../assets/logo.png";
 import "../styles/Navbar.css";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [show, setShow] = useState(false);
@@ -19,21 +20,31 @@ function Navbar() {
       </div>
 
       <nav className={show ? "menu-mobile" : "menu-web"}>
-        <ul className="menu-web flex align-middle gap-10 p-4 mr-16 font-semibold text-slate-300 {show ? 'menu-mobile' : 'menu-web'}">
-          <li className="transition duration-300 ease-out text-cyan-400 underline">
-            <a href="">Home</a>
+        <ul className="menu-web flex align-middle gap-10 p-4 mr-16 font-semibold text-slate-300 ">
+          <li className="transition duration-300 ease-out hover:underline ">
+            <Link to="/" className="hover:text-cyan-300 ">
+              Home
+            </Link>
           </li>
-          <li className="transition duration-300 ease-out hover:text-cyan-400 hover:underline">
-            <a href="">About</a>
+          <li className="transition duration-300 ease-out hover:underline">
+            <Link to="/About" className="hover:text-cyan-300">
+              About
+            </Link>
           </li>
-          <li className="transition duration-300 ease-out hover:text-cyan-400 hover:underline">
-            <a href="">Project</a>
+          <li className="transition duration-300 ease-out hover:underline">
+            <Link to="/Projects" className="hover:text-cyan-300">
+              Project
+            </Link>
           </li>
-          <li className="transition duration-300 ease-out hover:text-cyan-400 hover:underline">
-            <a href="">Skill</a>
+          <li className="transition duration-300 ease-out hover:underline">
+            <Link to="/Skill" className="hover:text-cyan-300">
+              Skill
+            </Link>
           </li>
-          <li className="transition duration-300 ease-out hover:text-cyan-400 hover:underline">
-            <a href="">Contact</a>
+          <li className="transition duration-300 ease-out hover:underline">
+            <Link to="/Contact" className="hover:text-cyan-300">
+              Contact
+            </Link>
           </li>
         </ul>
       </nav>

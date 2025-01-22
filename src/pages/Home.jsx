@@ -4,7 +4,7 @@ function Home() {
   return (
     <>
       <Navbar />
-      <div className="main-container">Home</div>
+      <div className="main-container"></div>
     </>
   );
 }

@@ -1,5 +1,12 @@
+import Navbar from "../components/Navbar";
+
 function Skill() {
-  return <div>Skill</div>;
+  return (
+    <>
+      <Navbar />
+      <div className="main-container">Skill</div>
+    </>
+  );
 }
 
 export default Skill;

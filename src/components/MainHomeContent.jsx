@@ -1,5 +1,10 @@
+import HomeSideImage from "./HomeSideImage.jsx";
 function MainHomeContent() {
-    return <div></div>;
+  return (
+    <>
+      <HomeSideImage />
+    </>
+  );
 }
 
 export default MainHomeContent;
