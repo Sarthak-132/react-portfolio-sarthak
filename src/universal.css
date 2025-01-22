@@ -5,7 +5,7 @@
 }
 
 :root {
-    --bg-color: #2a2a2c;
+    --bg-color: #10182C;
     --text-color: #ffffff;
     --card-color: #16181D;
     --btn-color: #22b8cf;
@@ -21,7 +21,7 @@ body {
 }
 
 .main-container {
-    background-color: #ae0303;
+    background-color: #a78c8c27;
     margin: 0 auto;
     width: 62%;
     height: 100vh;

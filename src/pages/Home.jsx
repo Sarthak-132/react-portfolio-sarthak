@@ -3,9 +3,8 @@ import "../universal.css";
 function Home() {
   return (
     <>
-      <div className="main-container">
-        <Navbar />
-      </div>
+      <Navbar />
+      <div className="main-container"></div>
     </>
   );
 }
