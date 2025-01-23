@@ -1,10 +1,14 @@
+import MainHomeContent from "../components/MainHomeContent";
 import Navbar from "../components/Navbar";
 import "../universal.css";
+
 function Home() {
   return (
     <>
       <Navbar />
-      <div className="main-container"></div>
+      <div className="main-container">
+        <MainHomeContent />
+      </div>
     </>
   );
 }

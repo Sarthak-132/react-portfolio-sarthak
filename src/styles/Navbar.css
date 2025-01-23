@@ -2,12 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: #121828;
-    border-bottom: 0.1rem solid #0a173d;
     margin: 0 auto;
     width: 100%;
-    box-shadow: rgba(94, 100, 105, 0.3) 0px 1px 2px 0px, rgba(81, 86, 90, 0.15) 0px 2px 6px 2px;
+    box-shadow: rgba(255, 255, 255, 0.936) 0px 1px 2px 0px, rgba(190, 203, 213, 0.722) 0px 2px 6px 2px;
     height: 10vh;
+
 }
 
 #logo {
@@ -17,12 +16,12 @@
 nav ul {
     display: flex;
     justify-content: flex-end;
-    /* background-color: yellow; */
+
     gap: 3.2rem;
-    color: #fff;
+    color: #000000;
 
     & li a {
-        color: #fff;
+        color: #000000;
     }
 }
 

@@ -1,9 +1,9 @@
-import { sideImageHome } from "../assets/sideImageHome.png";
+import sideImageHome from "../assets/sideImageHome.png";
 
 function HomeSideImage() {
   return (
     <>
-      <div className="side-image">
+      <div className="homeSideImage w-3/6">
         <img src={sideImageHome} alt="sideImageHome" />
       </div>
     </>
