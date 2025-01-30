@@ -3,8 +3,12 @@ import sideImageHome from "../assets/sideImageHome.png";
 function HomeSideImage() {
   return (
     <>
-      <div className="homeSideImage w-3/6">
-        <img src={sideImageHome} alt="sideImageHome" />
+      <div className="homeSideImageContainer w-3/6">
+        <img
+          src={sideImageHome}
+          className="homeSideImage p-0"
+          alt="sideImageHome"
+        />
       </div>
     </>
   );

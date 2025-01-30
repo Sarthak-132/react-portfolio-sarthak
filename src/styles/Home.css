@@ -1,6 +1,17 @@
 /* Home.css */
 
 
+/* HomeSideimage */
+.homeSideImage:hover {
+    filter: drop-shadow(1px 1px 10px yellow);
+    /* box-shadow: 1px 1px 20px yellow; */
+    transition: all 0.4s ease-out;
+    /* aspect-ratio: 3/2;
+    mix-blend-mode: color-dodge;
+    object-fit: contain; */
+}
+
+
 /* HomeSideContent */
 
 .homeSideContent {

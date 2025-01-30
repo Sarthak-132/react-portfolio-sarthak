@@ -117,20 +117,23 @@
 
 :root {
     --text-color: #10182C;
-    --card-color: #16181D;
-    --btn-color: #22b8cf;
-    --btn-text-color: #000000;
-    --hover-color: #55BAD1;
+    --primary-color: #1D1A39;
+    --secondary-color: #1B3358;
+    --third-color: #06142E;
+    --forth-color: #FBE4DB;
 }
 
 body {
     height: 100%;
     width: 100%;
-    /* background: var(--bg-color); */
-    color: var(--text-color);
+    background: var(--secondary-color);
+    color: var(--forth-color);
     font-family: "Poppins", serif;
 
+
 }
+
+
 
 .main-container {
     /* background-color: #a78c8c27; */

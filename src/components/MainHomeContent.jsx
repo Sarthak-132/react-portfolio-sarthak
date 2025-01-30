@@ -4,7 +4,7 @@ import "../styles/Home.css";
 function MainHomeContent() {
   return (
     <>
-      <div className="layout-Home flex justify-between items-center h-5/6">
+      <div className="layout-Home flex justify-between items-center h-5/6 ">
         <HomeSideImage />
         <HomeSideContent />
       </div>

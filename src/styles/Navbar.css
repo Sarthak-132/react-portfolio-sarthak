@@ -6,7 +6,7 @@
     width: 100%;
     box-shadow: rgba(255, 255, 255, 0.936) 0px 1px 2px 0px, rgba(190, 203, 213, 0.722) 0px 2px 6px 2px;
     height: 10vh;
-
+    z-index: 1;
 }
 
 #logo {
@@ -18,10 +18,10 @@ nav ul {
     justify-content: flex-end;
 
     gap: 3.2rem;
-    color: #000000;
+    color: #fff;
 
     & li a {
-        color: #000000;
+        color: #fff;
     }
 }
 
@@ -30,7 +30,7 @@ nav ul {
 }
 
 .active {
-    background-color: #3a3e3ea3;
+    background-color: #fff;
     color: #1acec8;
 }
 
@@ -38,6 +38,7 @@ nav ul {
     .nav-logo {
         margin-left: 0rem;
     }
+
 
     .menu-web {
         display: none;
@@ -51,24 +52,27 @@ nav ul {
 
     .menu-mobile {
         position: absolute;
-        top: 4rem;
+        top: 4.8rem;
         left: 0;
-        background-color: #121828;
+        background-color: #ffffff;
         width: 100%;
-        box-shadow: rgba(44, 40, 40, 0.527) 0px 14px 28px;
+        box-shadow: rgba(4, 40, 40, 0.166) 0px 14px 28px;
+        transition: all 0.8s ease-in-out;
     }
 
     .menu-mobile ul {
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 1.5rem;
+
 
         & li:first-child {
-            margin-top: 1rem;
+            margin-top: 0.5rem;
         }
 
         & li:last-child {
-            margin-bottom: 1rem;
+            margin-bottom: 0.5rem;
         }
     }
 }
