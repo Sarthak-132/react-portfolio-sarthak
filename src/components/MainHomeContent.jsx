@@ -8,6 +8,8 @@ function MainHomeContent() {
         <HomeSideImage />
         <HomeSideContent />
       </div>
+
+      
     </>
   );
 }

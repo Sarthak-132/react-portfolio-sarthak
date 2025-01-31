@@ -9,8 +9,17 @@
     z-index: 1;
 }
 
+.links-nav:hover {
+    transition: all 0.2s ease-in-out;
+    color: var(--light-color);
+}
+
 #logo {
     cursor: pointer;
+}
+
+#logo:hover {
+    background: var(--extra-light-color);
 }
 
 nav ul {

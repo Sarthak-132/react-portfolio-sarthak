@@ -13,36 +13,36 @@ function Navbar() {
   return (
     <div className="navbar">
       <div
-        className="nav-logo w-12 h-12 ml-20 rounded-full transition duration-300 ease-out hover:bg-red-400"
+        className="nav-logo w-12 h-12 ml-20 rounded-full transition duration-300 ease-out"
         id="logo"
       >
         <img src={logo} alt="Logo" />
       </div>
 
       <nav className={show ? "menu-mobile" : "menu-web"}>
-        <ul className="menu-web flex align-middle gap-10 p-4 pr-16 font-semibold text-slate-300 ">
+        <ul className="menu-web flex align-middle gap-10 p-4 pr-16 font-2xl text-slate-300 ">
           <li className="transition duration-300 ease-out hover:underline ">
-            <Link to="/" className=" hover:text-red-600">
+            <Link to="/" className="  links-nav">
               Home
             </Link>
           </li>
           <li className="transition duration-300 ease-out hover:underline">
-            <Link to="/About" className="hover:text-red-600">
+            <Link to="/About" className=" links-nav">
               About
             </Link>
           </li>
           <li className="transition duration-300 ease-out hover:underline">
-            <Link to="/Projects" className="hover:text-red-600">
+            <Link to="/Projects" className=" links-nav">
               Project
             </Link>
           </li>
           <li className="transition duration-300 ease-out hover:underline">
-            <Link to="/Skill" className="hover:text-red-600">
+            <Link to="/Skill" className=" links-nav">
               Skill
             </Link>
           </li>
           <li className="transition duration-300 ease-out hover:underline">
-            <Link to="/Contact" className="hover:text-red-600">
+            <Link to="/Contact" className=" links-nav">
               Contact
             </Link>
           </li>

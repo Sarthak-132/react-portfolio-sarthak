@@ -1,10 +1,5 @@
 #social-links {
     aspect-ratio: 3/2;
     object-fit: contain;
-    mix-blend-mode: multiply;
-}
-
-#social-links:hover {
-    mix-blend-mode: normal;
-    cursor: pointer;
+    mix-blend-mode: difference;
 }
