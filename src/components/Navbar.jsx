@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div
-        className="nav-logo w-12 h-12 ml-20 rounded-full transition duration-300 ease-out"
+        className="nav-logo w-12 h-12 ml-12 rounded-full transition duration-300 ease-out"
         id="logo"
       >
         <img src={logo} alt="Logo" />

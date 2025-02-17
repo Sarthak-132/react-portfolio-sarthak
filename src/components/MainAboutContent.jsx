@@ -5,7 +5,7 @@ import AboutEducation from "./AboutEducation";
 function MainAboutContent() {
   return (
     <>
-      <div className="firstAbout flex justify-between align-top pt-12 px-4">
+      <div className="firstAbout flex justify-between align-top pt-10 px-4">
         <AboutSideImage />
         <AboutSideContent />
       </div>

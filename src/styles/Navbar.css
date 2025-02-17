@@ -44,6 +44,12 @@ nav ul {
 }
 
 @media screen and (max-width: 768px) {
+
+    .navbar {
+        justify-content: space-between;
+        padding: 0 2rem;
+    }
+
     .nav-logo {
         margin-left: 0rem;
     }
@@ -63,17 +69,19 @@ nav ul {
         position: absolute;
         top: 4.8rem;
         left: 0;
-        background-color: #ffffff;
+        background-color: #020202;
         width: 100%;
         box-shadow: rgba(4, 40, 40, 0.166) 0px 14px 28px;
         transition: all 0.8s ease-in-out;
+        z-index: 3;
     }
 
     .menu-mobile ul {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
         gap: 1.5rem;
+        padding: 1rem 2.5rem;
 
 
         & li:first-child {

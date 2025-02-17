@@ -5,7 +5,7 @@ import "../styles/About.css";
 function AboutSideImage() {
   return (
     <>
-      <article className="aboutSideImageContainer w-4/12">
+      <article className="aboutSideImageContainer w-4/12 p-6">
         <img
           className="aboutSideImage h-64 w-64"
           src={sideImageAbout}

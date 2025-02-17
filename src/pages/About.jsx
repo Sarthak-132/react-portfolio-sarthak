@@ -8,8 +8,9 @@ function About() {
   return (
     <>
       <Navbar />
-      <div className="main-container">
+      <div className="main-container-about">
         <MainAboutContent />
+
         <Footer />
       </div>
     </>

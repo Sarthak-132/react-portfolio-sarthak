@@ -8,8 +8,11 @@ function Footer() {
         <div className="copright pb-2">
           <p className="ml-10">
             Copyright &copy; 2023{" "}
-            <span className="font-bold text-lg"> Sarthak Dhoke </span> All
-            rights reserved
+            <span className="font-bold text-lg copyrightName">
+              {" "}
+              Sarthak Dhoke{" "}
+            </span>{" "}
+            All rights reserved
           </p>
         </div>
         <ul className="flex justify-end">
