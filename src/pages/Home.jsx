@@ -7,10 +7,12 @@ function Home() {
   return (
     <>
       <Navbar />
-      <div className="main-container">
-        <MainHomeContent />
-        <Footer />
-      </div>
+      <main className="Home">
+        <div className="main-container">
+          <MainHomeContent />
+          <Footer />
+        </div>
+      </main>
     </>
   );
 }

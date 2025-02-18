@@ -1,5 +1,8 @@
 /* Home.css */
-
+.Home {
+    background-image: url("../assets/home.jpg");
+    z-index: -1;
+}
 
 /* HomeSideimage */
 .homeSideImage:hover {
@@ -24,7 +27,7 @@
 }
 
 .blackAndWhite {
-    background-image: url(../assets/text-img.jpg);
+    background-image: url(../assets/text-image.jpg);
     background-size: cover;
     background-position: center;
     color: transparent;

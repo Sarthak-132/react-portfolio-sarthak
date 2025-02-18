@@ -1,12 +1,15 @@
-.navbar {
+.inner-nav {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin: 0 auto;
+    justify-content: center;
     width: 100%;
-    box-shadow: rgba(255, 255, 255, 0.936) 0px 1px 2px 0px, rgba(190, 203, 213, 0.722) 0px 2px 6px 2px;
+    box-shadow: rgba(28, 184, 236, 0.936) 0px 1px 2px 0px, rgba(190, 203, 213, 0.722) 0px 2px 6px 2px;
     height: 10vh;
     z-index: 1;
+}
+
+#nav-links {
+    margin-left: 20rem;
 }
 
 .links-nav:hover {
@@ -26,7 +29,7 @@ nav ul {
     display: flex;
     justify-content: flex-end;
 
-    gap: 3.2rem;
+    /* gap: 3.2rem; */
     color: #fff;
 
     & li a {
