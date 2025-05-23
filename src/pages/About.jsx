@@ -1,20 +1,9 @@
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import "../universal.css";
-import "../styles/About.css";
-import MainAboutContent from "../components/MainAboutContent";
-
-function About() {
+const About = () => {
   return (
     <>
-      <Navbar />
-      <div className="main-container-about">
-        <MainAboutContent />
-
-        <Footer />
-      </div>
+      <h1>About</h1>
     </>
   );
-}
+};
 
 export default About;

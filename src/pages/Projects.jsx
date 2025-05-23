@@ -1,12 +1,5 @@
-import Navbar from "../components/Navbar";
-
-function Projects() {
-  return (
-    <>
-      <Navbar />
-      <div className="main-container">Projects</div>
-    </>
-  );
-}
+const Projects = () => {
+  return <div>proejct</div>;
+};
 
 export default Projects;

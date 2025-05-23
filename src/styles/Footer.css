@@ -1,9 +1,0 @@
-#social-links {
-    aspect-ratio: 3/2;
-    object-fit: contain;
-    mix-blend-mode: difference;
-}
-
-.copyrightName {
-    color: var(--dark-color);
-}

@@ -1,12 +1,9 @@
-import Navbar from "../components/Navbar";
-
-function Skill() {
+const Skill = () => {
   return (
     <>
-      <Navbar />
-      <div className="main-container">Skill</div>
+      <h1>Skill</h1>
     </>
   );
-}
+};
 
 export default Skill;
